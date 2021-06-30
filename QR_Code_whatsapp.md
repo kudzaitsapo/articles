@@ -167,7 +167,7 @@ set FLASK_APP=app.py
 flask run
 ```
 
-{Image goes here}
+![](https://raw.githubusercontent.com/kudzaitsapo/articles/master/cmd_run.png)
 
 Now you have a web application running locally on your computer. However, in order for twilio to communicate with our application, it needs to be available on the internet and during development, we can use the [ngrok](https://ngrok.com/) utility to create a temporary public URL for our application.
 
@@ -187,7 +187,7 @@ ngrok.exe http 5000
 
 Note the lines beginning with “Forwarding”. These show the public URL that ngrok uses to redirect requests into our local application. Take either one of these URLs and enter it on your browser. Ngrok will randomly generate the first part of the URL every time it starts.
 
-{Ngrok image goes here}
+![](https://raw.githubusercontent.com/kudzaitsapo/articles/master/ngrok.png)
 
 
 
@@ -199,4 +199,5 @@ Make sure the dropdown to the right of the URL field is set to “HTTP Post”, 
 
 After configuring, we can test our application by sending an image.
 
-{Image goes here}
+![](https://raw.githubusercontent.com/kudzaitsapo/articles/master/sample_1.jpeg)
+
